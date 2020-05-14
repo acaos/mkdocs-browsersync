@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://hub.docker.com/r/acaos/mkdocs-browsersync">
-    <img src="https://img.shields.io/docker/automated/acaos/mkdocs-browsersync">
+    <img src="https://img.shields.io/docker/cloud/automated/acaos/mkdocs-browsersync">
   </a>
 </p>
 
