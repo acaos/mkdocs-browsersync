@@ -1,11 +1,3 @@
-#
-# Building:
-#   docker build -f Dockerfile -t mkdocs-browsersync:latest .
-#
-# Running (from the directory with your `mkdocs.yml`)
-#  docker run --rm -p 8080:8080 -v $(pwd):/docs -it mkdocs-browsersync:latest
-#
-
 FROM node:12-alpine
 
 RUN set -eux \
