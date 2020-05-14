@@ -33,10 +33,10 @@ function serve(done) {
     notify: false,
     open: false,
     port: 8080,
+    reloadOnRestart: true,
     server: "/_mkdocs/site",
     ui: false,
   });
-  server.reload();
   done();
 }
 
