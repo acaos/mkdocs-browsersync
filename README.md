@@ -35,5 +35,3 @@ The only additional configuration available is that a `MKDOCS_IGNORE` environmen
 + [ ] Add a sample `docker-compose.yml` for use with Docker Compose.
 + [ ] Add examples of more advanced usage (e.g. plugin integration, additional Gulp build steps).
 + [ ] Add examples for non-Dockerized usage.
-
-.
