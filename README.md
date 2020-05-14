@@ -8,7 +8,7 @@
 
 Due to [recent changes in MkDocs version 1.1.1](https://github.com/mkdocs/mkdocs/issues/2108), it is now less convenient to run MkDocs within a Docker for local development. In addition, the maintainer of MkDocs has stated that the libraries used to support serving and live reloading are poorly supported and may break in the future.
 
-This repository attepts to offer an alternative solution, combining [MkDocs](https://github.com/mkdocs/mkdocs), [BrowserSync](https://github.com/BrowserSync/browser-sync), and [Gulp](https://github.com/gulpjs/gulp) into a single Docker container which will watch a volume, automatically rebuild on changes, and then refresh attached browsers. The documentation is built and then `rsync`ed to the final location to allow for a clean build that does not delete actively-served files while the build is in progress.
+This repository attempts to offer an alternative solution, combining [MkDocs](https://github.com/mkdocs/mkdocs), [BrowserSync](https://github.com/BrowserSync/browser-sync), and [Gulp](https://github.com/gulpjs/gulp) into a single Docker container which will watch a volume, automatically rebuild on changes, and then refresh attached browsers. The documentation is built and then `rsync`ed to the final location to allow for a clean build that does not delete actively-served files while the build is in progress.
 
 ## Usage
 
